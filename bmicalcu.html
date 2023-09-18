@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI_Calculator</title>
+    <style>
+ #div1{
+        width: 400px;
+        height: 400px;
+        background-color: rgb(228, 238, 140);
+        display: inline-block;
+        position: relative;
+        left: 400px;
+        top: 100px
+        }
+        #bmihight{
+            background-color:  rgb(127, 230, 230);
+            margin-left: 70px;
+        }
+        #Bmiweight{
+            background-color:  rgb(127, 230, 230);
+            margin-left: 70px;
+        }
+        #report{
+            background-color:  rgb(127, 230, 230);
+            margin-left: 70px;
+            height: 30px;
+            border-radius: 20px;
+        }
+
+       #calculate{
+            background-color: rgb(127, 230, 230);
+            border-radius: 20px;
+            width: 350px;
+            height: 40px;
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+        #para{
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1 style="margin-left: 50px;">BMI CALCULATOR</h1>
+        <p id="para"><b>Enter your hight</b></p>
+        <label for="Bmi hight"</label>
+        <input type="tel" id="bmihight" name="bmi hight" placeholder="Enter your hight (cm)"><br>
+
+        <p id="para"><b>Enter your weight</b></p>
+        <label for="Bmi weight"</label>
+        <input type="tel" id="Bmiweight" name="bmi hight" placeholder="Enter your weight (cm)">
+
+        <button type="submit" id="calculate">calculate</button>    
+        <p id="para"><b>Here is your calculated report</b></p>
+
+        <label for="BMI report"</label>
+        <input type="tel" id="report" name="calculated" placeholder="calculated report">
+    </div>
+</body>
+</html>
